@@ -38,5 +38,8 @@ nav a {
     color: rgb(147, 52, 52);
     text-align: center;
 }
+.error {
+color: rgb(255, 4, 4);
+}
 
         
