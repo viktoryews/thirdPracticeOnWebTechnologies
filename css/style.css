@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(249, 224, 204);
 }
 footer {
     text-align: center;
@@ -14,24 +14,24 @@ nav {
 }
 nav a:hover {
     background-color: #cf8d22c5;
-    color: aliceblue;
+    color: rgb(243, 242, 174);
 
 }
 nav a {
     text-decoration: none;
-    color: rgb(147, 52, 52);
+    color: rgb(177, 63, 21);
     padding: 15px;
     transition: 1s;
 }
 .container {
-    background-color:burlywood;
+    background-color:rgba(221, 218, 213, 0.29);
     padding: 10px;
     width: 800px;
     margin: 0 auto;
     border-radius: 5px;
 }
 .title {
-                color: rgb(147, 52, 52);
+                color: rgb(144, 22, 22);
                 font-size: 30px;
             }
 .h1 {
