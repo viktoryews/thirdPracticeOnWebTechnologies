@@ -6,31 +6,65 @@
             Браслеты из натуральных камней
         </title>
         <link rel="stylesheet" href="css/style.css">
+        <script defer src="js/app.js"></script>
     </head>
     <body>
         <div class="container">
     <header>
         <div class="title">
-            Чат</div>
-        </header>
+            Чат
+         </div>
+    </header>
     <nav> 
         <a href="https://www.livemaster.ru/catalogue/tag/485-braslety-iz-naturalnyh-kamnej?sectiontype=1">Браслеты</a>
-        <a href="https://www.ozon.ru/category/braslety-zhenskie-iz-naturalnyh-kamney/">Каталог товаров</a>
+        <a href="https://www.ozon.ru/category/braslety-zhenskie-iz-naturalnyh-kamney/">Купить браслет</a>
         <a href="index.html">Главная</a>
     </nav>
     <main>
         <h1>
             Чат
         </h1>
-        <input type="text" placeholder="Введите Ваше сообщение">
-        <button>
+        <input type="text" placeholder="Введите Ваше имя" id="name">
+        <br><br>
+        <input type="text" placeholder="Введите Ваше сообщение" id="message">
+        <button onclick="send()">
             Ввод
         </button>
+        <br><br>
+        <div id="result"></div>
+        <div class="error" id="errorMessage"></div>
         <br>
-        Описание
+        Планетам соответствуют следующие камни:
         <ul>
             <li>
-                Привет
+                <b> Солнце </b> – алмаз, гиацинт, авантюрин, рубин, гелиодор, янтарь, все золотисто-желтые и красные камни
+            </li>
+            <li>
+                <b> Луна </b> – опал, лунный камень, аквамарин, берилл, жемчуг, коралл, селенит, горный хрусталь, все белые, голубоватые и бесцветные камни
+            </li>
+            <li>
+                <b> Меркурий </b> – топаз, изумруд, агат, хризолит,бирюза, аметист, фиолетово-лиловые камни
+            </li>
+            <li>
+                <b> Венера </b> – сапфир, жемчуг, малахит, беломорит, изумруд, амазонит и все зеленые камни
+            </li>
+            <li>
+                <b> Юпитер </b> – бирюза, сапфир, лазурит, голубой топаз и все синие камни
+            </li>
+            <li>
+                <b> Марс </b> – рубин, кровавик, яшма, алмаз, гранат-пироп и альмадин, карнеолы, все красные и красно-коричневые камни
+            </li>
+            <li>
+               <b> Сатурн </b> – оникс, агат, морион, черный с белым сард и все черные или очень темные камни
+            </li>
+            <li>
+                <b> Нептун </b> – аквамарин, лунный камень, горный хрусталь, жады, камни зелено-голубых оттенков
+            </li>
+            <li>
+                <b> Уран </b> – огненный опал, лабрадор и камни с эффектами иризации
+            </li>
+            <li>
+                <b>  Плутон </b>– раух топаз, яшма
             </li>
         </ul>
     </main>
