@@ -13,26 +13,30 @@ nav {
     margin: 10px;
 }
 nav a:hover {
-    background-color: gold;
+    background-color: #cf8d22c5;
     color: aliceblue;
 
 }
 nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(147, 52, 52);
     padding: 15px;
     transition: 1s;
 }
 .container {
-    background-color: rgb(241, 62, 161);
+    background-color:burlywood;
     padding: 10px;
     width: 800px;
     margin: 0 auto;
     border-radius: 5px;
 }
 .title {
-                color: rgb(10, 10, 10);
+                color: rgb(147, 52, 52);
+                font-size: 30px;
             }
-
+.h1 {
+    color: rgb(147, 52, 52);
+    text-align: center;
+}
 
         
